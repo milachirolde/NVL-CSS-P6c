@@ -1,0 +1,70 @@
+/* setting general div container */
+.general {
+    margin: 0 auto;
+    padding: 30px;
+    width: 950px;
+    background-color: black;
+}
+
+.contacto {
+    background-color: coral;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+/* setting text styles */
+p {
+    font-size: 18px;
+    color: white;
+}
+H2 {
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+    color: #F27C38;
+}
+H3 {
+    font-size: 18px;
+    text-align: center;
+    color: tomato;
+}
+H4 {
+    font-weight: 18px;
+    text-align: center;
+    color: white;
+}
+li {
+    padding: 5px 0;
+    color: white;
+}
+
+/* los subtitulos de los pasos tendran color negro y background naranja */
+h4[data-pasos]{
+    background-color: tomato;
+    color: black;
+}
+
+/* setting images propierties */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+/* poniendo las cantidades de las recestas en color naranja */
+li:before {
+    content: attr(data-cantidad);
+    color: coral;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* formularios */
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center ;
+}
